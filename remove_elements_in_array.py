@@ -9,5 +9,4 @@ class Solution:
                 p2 -= 1
             else:
                 p1 += 1
-
         return p1
