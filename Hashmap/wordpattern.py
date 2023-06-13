@@ -16,9 +16,7 @@
 # Input: pattern = "aaaa", s = "dog cat cat dog"
 # Output: false
 
-
-def wordPattern(self, pattern: str, s: str) -> bool:
-	class Solution:
+class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
         dic = {}
         idx = 0
