@@ -1,26 +1,26 @@
-Question 226. Invert Binary Tree
-Given the root of a binary tree, invert the tree, and return its root.
+# Question 226. Invert Binary Tree
+# Given the root of a binary tree, invert the tree, and return its root.
 
-class Solution:
-    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-	Def dfs(root)
-		if(root is None):
-			Return
+# class Solution:
+#     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+# 	Def dfs(root)
+# 		if(root is None):
+# 			Return
 
-		Root.left = dfs(root.right)
-		Root.right = dfs(root.left)
+# 		Root.left = dfs(root.right)
+# 		Root.right = dfs(root.left)
 
-		Return root
+# 		Return root
 
-Test:
-Input: root = [2,1,3]
-Output: [2,3,1]
+# Test:
+# Input: root = [2,1,3]
+# Output: [2,3,1]
 
-Root.left = 3
-Root.right =1
+# Root.left = 3
+# Root.right =1
 
-dfs(3) = 3
-dfs(2) = 21
+# dfs(3) = 3
+# dfs(2) = 21
 
 
 class Solution:
