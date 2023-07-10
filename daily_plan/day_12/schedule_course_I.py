@@ -5,7 +5,7 @@ class Solution:
             adj[num] =  []
         for requisite in prerequisites:
             adj[requisite[0]].append(requisite[1])
-        print(adj)
+
         for num in range(numCourses):
             test_course = num
             visited = set()
