@@ -1,0 +1,14 @@
+class Solution:
+    def hIndex(self, citations: List[int]) -> int:
+        if not citations: return 0
+        citations.sort()
+        h = 0
+        n = len(citations)
+        papers = 0
+        for cite in citations:
+            cited = n - papers
+            if cited <= cite:
+                print(cited)
+                h = max(h, cited)
+            papers += 1
+        return h
