@@ -13,10 +13,10 @@ class Solution:
 
             return root
 
-            preorder_index = 0
+        preorder_index = 0
 
-            inorder_index = {}
-            for index, value in enumerate(inorder):
+        inorder_index = {}
+        for index, value in enumerate(inorder):
             inorder_index[value] = index
 
         return array_to_tree(0, len(preorder) - 1)
